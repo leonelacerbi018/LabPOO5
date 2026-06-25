@@ -12,10 +12,7 @@ class Gato(Animal):
 
 def main():
     animales = [
-        Perro(),
-        Gato(),
-        Perro(),
-        Gato()
+        Perro(), Gato()
     ]
     
     for animal in animales:
